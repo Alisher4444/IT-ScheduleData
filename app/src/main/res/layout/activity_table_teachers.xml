@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_table_teachers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="*"
+    tools:context="temirbekia.ru.it_schedule.structure.TableTeachers">
+
+    <TableRow>
+        <TextView android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:background="#90CAF9"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_span="3"
+            android:text="Расписание"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Время"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Предмет"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Кабинет"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="10:00"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="SDP5"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="604"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="10:50"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="SDP5"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="604"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="11:00"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="JAVA"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="404"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="12:00"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="CGI"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="807"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="12:50"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="SDP6"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="408"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="13:00"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="IOS"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="204"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="13:50"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="IOS"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="204"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="14:00"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="15:00"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="14:00"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="15:00"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="14:00"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="15:00"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="14:00"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="15:00"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="14:00"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="15:00"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="14:00"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+        <TextView android:background="#90CAF9"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+</TableLayout>
